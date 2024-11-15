@@ -2,7 +2,7 @@
   "name": "cyrl2lat",
   "author": "baggerfast",
   "type": "module",
-  "description": "",
+  "description": "A simple and efficient package for transliterating Russian (Cyrillic) text to English (Latin) characters. Ideal for converting Russian text into a readable Latin alphabet form, suitable for use in URLs, file names, or just to make Cyrillic text more accessible in English.",
   "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/BaggerFast/Cyrl2lat",
