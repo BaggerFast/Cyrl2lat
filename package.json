@@ -1,0 +1,37 @@
+{
+  "name": "cyrl2lat",
+  "author": "baggerfast",
+  "type": "module",
+  "description": "",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/BaggerFast/Cyrl2lat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaggerFast/Cyrl2lat.git"
+  },
+  "keywords": ["transliterate", "translit", "ru_to_en"],
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && vite build",
+    "format": "prettier src --write",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.11",
+    "vite-plugin-dts": "^4.2.1",
+    "vitest": "^2.1.5"
+  }
+}
